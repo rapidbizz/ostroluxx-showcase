@@ -1,0 +1,20 @@
+/* Demo example — a small stylesheet for the product card.
+   Illustrative example only, not the client website code. */
+
+.product-card {
+  max-width: 320px;
+  padding: 1rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.75rem;
+  font-family: system-ui, sans-serif;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.product-card a {
+  color: #ff8c28;
+  font-weight: 700;
+}
