@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- Demo example — a small product catalog page in HTML.
+     Illustrative example only, not the client website code. -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ostroluxx — Product Catalog (Demo)</title>
+  <link rel="stylesheet" href="product-styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Ostroluxx</h1>
+    <p>Decorative lighting — demo catalog page.</p>
+  </header>
+
+  <nav>
+    <button data-filter="all">All</button>
+    <button data-filter="wall">Wall</button>
+    <button data-filter="ceiling">Ceiling</button>
+    <button data-filter="floor">Floor</button>
+  </nav>
+
+  <main>
+    <article class="product-card" data-type="wall">
+      <img src="elantra-wall.jpg" alt="Elantra decorative wall lamp" />
+      <h3>Elantra Wall Lamp</h3>
+      <p>Decorative wall light — warm white, dimmable.</p>
+      <a href="products/models/elantra-wall.html">View model</a>
+    </article>
+
+    <article class="product-card" data-type="ceiling">
+      <img src="elantra-ceiling.jpg" alt="Elantra ceiling light" />
+      <h3>Elantra Ceiling Light</h3>
+      <p>Soft ambient ceiling light for living spaces.</p>
+      <a href="products/models/elantra-ceiling.html">View model</a>
+    </article>
+
+    <article class="product-card" data-type="floor">
+      <img src="elantra-floor.jpg" alt="Elantra floor lamp" />
+      <h3>Elantra Floor Lamp</h3>
+      <p>Standing floor lamp with adjustable brightness.</p>
+      <a href="products/models/elantra-floor.html">View model</a>
+    </article>
+  </main>
+
+  <footer>
+    <p>Demo page — Ostroluxx lighting brand, by RapidBizz.</p>
+  </footer>
+
+  <script src="product-filter.js"></script>
+</body>
+</html>
